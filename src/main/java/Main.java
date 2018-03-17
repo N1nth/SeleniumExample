@@ -1,4 +1,5 @@
 import org.openqa.selenium.*;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedCondition;
@@ -18,8 +19,11 @@ public class Main {
 
         //System.setProperty("webdriver.gecko.driver", "C:\\Users\\N1nth\\Downloads\\SeleniumTest-1\\driver\\geckodriver.exe");
         System.setProperty("webdriver.gecko.driver", "/Users/astemirpachev/SeleniumTest-1/driver/geckodriver");
+        System.setProperty("webdriver.chrome.driver", "/Users/astemirpachev/SeleniumTest-1/driver/chromedriver");
 
         driver = new FirefoxDriver();
+
+        //driver = new ChromeDriver();
 
         //-----------------Lesson 40-41 ------------------------------//
         /*
